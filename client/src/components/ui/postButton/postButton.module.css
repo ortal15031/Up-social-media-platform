@@ -1,0 +1,27 @@
+.link{
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    border: 1px solid #ad5072;
+    color: #ad5072;
+    background-color: white;
+    height: 30px;
+    width: 60px;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-decoration: none;
+   /* box-shadow: inset 0 0 0 0 #ad5072; */
+    text-align: center;
+    border: none;
+    transition: ease-out 0.3s;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 2px;
+    }
+.link:hover{
+    box-shadow: inset 90px 0 0 0 #0000;
+  
+}
+.link:active{
+    box-shadow: inset 90px 0 0 0 #0000;
+
+}

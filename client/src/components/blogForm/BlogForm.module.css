@@ -1,0 +1,31 @@
+.mainDiv{
+    margin-top: 1.5rem;
+    display: flexbox;
+    background-color: white;
+    position: center;
+    box-sizing:content-box;
+    align-items: center;
+    width: 800px;
+   margin-left: 20%;
+   padding: 10px;
+   border-radius: 1px;
+}
+.row{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    align-items:flex-end;
+    text-align: right;
+}
+
+.submitDiv{
+margin-top: 50px;
+display: flex;
+gap: 10px;
+padding: 5px;
+direction: rtl;
+}
+
+
+

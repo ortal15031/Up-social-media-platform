@@ -1,0 +1,210 @@
+.profileDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row-reverse;
+    /* gap:100px; */
+    width: 100%;
+    gap:37%;
+    }
+    .leftDiv{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 12%;
+        width:20%;
+    }
+    .rightDiv{
+        display:flex;
+        align-items: flex-start;
+        flex-direction:row;
+        flex-wrap: wrap;
+        width: 70%;
+        /* align-content: stretch */
+    }
+    .bottomDiv{
+        display: flex;
+        align-items:flex-start;
+    }
+    .frame{
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        border: 3px solid white;
+        box-shadow: rgba(50 ,50,93,0.23)0 2px 5px -1px;
+        
+    }
+    .profileImg{
+   border-radius: 50%;
+   width:100%;
+   height: 100%;
+   object-fit: fill;
+    }
+    .cameraIconDiv{
+        border-radius: 50%;
+        height: 22%;
+        width: 10%;
+        background-image: linear-gradient(106deg, rgba(173,80,114,1) 48%, rgba(128,24,61,1) 100%);
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+        border: 3px solid white;
+        transition:ease-in;
+        position: absolute;
+        right:30%;
+        margin-top:30%;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+     }
+
+    .cameraIconDiv:hover{
+     transform: scaleY(104%);
+     box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.5);
+    }
+    .inputImg{
+        align-items: center;
+        z-index: 3;
+       position: absolute;
+      color: transparent;
+    }
+    .inputImg::-webkit-file-upload-button{
+        color: transparent;
+        border: none;
+        background: transparent;
+    }
+   .input{
+    /* color: transparent; */
+    margin-right:50% ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px dashed black;
+    direction: rtl;
+    font-family: 'Varela Round', sans-serif;
+   }
+
+   .input:focus{
+  outline:none;
+  border-bottom: 1px dashed black;
+
+   }
+
+/* 
+    ad5072
+
+    80183d */
+    .cameraIcon{
+        height: 50%;
+        width: 50%;
+        color: white;
+       /* margin-top: 10px; */
+       margin-left: 25%;
+    }
+  
+  .cameraIcon::after{
+    border: 1px dashed black;
+  }
+    
+    .userNameDiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       flex-direction: row;
+       gap:7px ;
+       width: 100%;
+    }
+    .userName{
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    width: 100%;
+    }
+    .pencilDiv{
+        width:100%;
+        background: linear-gradient(0deg, rgba(25,32,32,1) 0%, rgba(0,0,0,1) 100%);
+        border-radius: 50%;
+        position: static;
+        transition: ease-out 1s;
+        border: 4px solid white;
+       box-shadow: inset 0 0 0 0 #ad5072, rgba(0, 0, 0, 0.23)0 2px 5px 1px;
+
+    }
+    .pencilDiv:hover{
+        box-shadow: inset 700px 0 0 0 #ad5072;
+   
+    }
+ 
+    .pencilIcon{
+         height:20px;
+         width: 25px;
+        color: white;
+        margin-top: 2px;
+    }
+    .editDiv{
+        display: inline;
+        flex-direction:row;
+        top: 1%;
+        gap: 1%;
+        width: 100%;
+    }
+ .checkmark{
+    position: absolute;
+    transition: ease-in-out 0.3s;
+    width: 15%;
+    height: 15%;
+ }
+ .checkmark:hover{
+    color:gray;
+ }
+    .aboutDiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       flex-direction: row;
+       gap:10% ; 
+       margin-top: 5%;
+    }
+    .caption{
+        font-size:13px;
+        block-size: fit-content;
+        color:#818181;
+        font-family: 'Varela Round', sans-serif;
+
+     
+    }
+    .followingList{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:60px;
+    margin-top: 30px;
+    font-size: 13px;
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 1px;
+}
+    
+    .followingList li{
+        color:#818181 ;
+        display: flex;
+        flex-direction: column-reverse;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 13px;
+        
+    }
+    .followingList li span{
+        color: black;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 13px;
+    
+    }
+
+    .AddFollow{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    

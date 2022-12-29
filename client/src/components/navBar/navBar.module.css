@@ -1,0 +1,106 @@
+.myDiv {
+    background:white;
+   display: flex;
+    position:static;
+    align-items: center;
+    justify-content: space-between;
+        box-shadow: rgba(50 ,50,93,0.23)0 2px 5px -1px;
+     
+}
+.mostRight{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.rightElem{
+    margin-left: 23%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.logo{
+    width: 120px;
+    height:70px;
+    padding-top: 3px;
+
+    }
+    
+    .link{
+        margin-top: 20px;
+
+        }
+  
+    .links{
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .search{
+        display:flex;
+        margin-top: 20px;
+    
+    }
+
+    .logout{
+        display:inline-flex;
+        align-items:center;
+        box-sizing:border-box;
+        margin-left:50px;
+    }
+
+    .logoutLink{
+    }
+   
+    .profile{
+        display: inline-flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        box-sizing: border-box;
+        margin-left:200px;
+        gap: 85px;
+        }
+    .icons{
+        display: inline-flex;
+        gap: 35px;
+    }
+    .icon{
+        height: 28px;
+        width: 28px;
+        color: black;
+    }
+
+    .icon:hover{
+    }
+
+    .profilePic{
+        height: 35px;
+        width: 35px;
+        border-radius:50%;
+        margin-right:5px;
+    }
+
+    .counters{
+        text-decoration: none;
+    }
+    .counters:hover{
+        transform: translateY(-5%);
+
+    }
+
+    .numberUpdates{
+        width:18px;
+        height:18px;
+        margin-right:20px;
+        margin-top:-2px;
+        margin-left:-4px;
+      background:#a94753;
+      color: white;
+      border-radius: 50%;
+      position: absolute;
+      align-items:center;
+      justify-content:center;
+      font-size:12px;
+    }
+

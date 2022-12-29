@@ -1,0 +1,14 @@
+.btn{
+ 
+    background: black;
+    color: white;
+   height:45px;
+    width: 60%;
+    border-radius: 30px;
+    transition: ease-in-out 0.4s;
+}
+
+.btn:hover{
+background-color: white;
+color: black;
+}

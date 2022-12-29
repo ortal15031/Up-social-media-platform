@@ -1,0 +1,63 @@
+.mainDiv{
+        display:inline-block;
+        vertical-align: top;
+        width:50%;
+        margin-top: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        align-self: center;
+}
+
+.userDetails{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5%;
+}
+.frame{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   position: absolute;
+}
+
+.profile{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+}
+.userName{
+    font-size: 12px;
+
+}
+.comment{
+    display: flex;
+    align-items: flex-start;
+    width:100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+.text{
+    font-size: 13px;
+    width: 100%;
+    height: 100px;
+    background: white;
+    border: 1px solid lightgray;
+    margin-right: 10%;
+    margin-left: 10%;
+    direction: rtl;
+    vertical-align: text-top;
+    text-align: start;
+}
+.text:focus{
+    border: 1px solid lightgray;
+    outline: none;
+}
+.btn{
+    position: absolute; 
+     margin-right: 50%;
+}

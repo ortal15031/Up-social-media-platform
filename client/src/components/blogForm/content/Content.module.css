@@ -1,0 +1,10 @@
+.content{
+    height: 190px;   
+    text-align: center;
+    padding: 0px;
+    }
+    .content p{
+        direction: rtl;
+        text-align: right;
+    }
+    

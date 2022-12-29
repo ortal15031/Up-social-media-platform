@@ -1,0 +1,191 @@
+.editPost{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    /* margin-top:50%; */
+    flex-direction:row;
+    position:relative;
+    gap: 2%;
+    /* direction: rtl; */
+    margin-right: 5%;
+    margin-left: 80%;
+}
+.linkDiv{
+    width:40px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .5);
+    transition: ease-out 0.3s;
+}
+.linkDiv:hover{
+background-color:#ad5072;
+color: white;
+}
+.editIcon{
+    /* color: black; */
+    height:100%;
+    width: 50%;
+    object-fit: fill;
+     
+}
+
+.deleteIcon{
+    /* color: black; */
+    height:100%;
+    width: 50%;
+    object-fit: fill;
+
+}
+
+.commentDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    align-items: center;
+    
+}
+
+.addComment{
+    margin-right: 100%;
+}
+/* .list{
+display:flex;
+flex-direction:column;
+align-items:center;
+width: 100%;
+/* margin-right:100%; */
+
+
+.commentList{
+    /* width:100% */
+}
+
+
+ .rateComment{
+    display: flex;
+    flex-direction: row-reverse;
+    width:100%;
+    gap: 50%;
+    align-items:center; 
+    margin-top: 15%;
+}
+
+.like{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    width:50%;
+     /* position: absolute;  */
+}
+.likeIcon{
+    color: black;
+    height: 30%;
+    width: 30%;
+    transition: ease-in 0.3ms;
+
+}
+.likeIconPressed{
+    color:#a94753;
+    height: 50%;
+    width: 30%;
+}
+
+.spanLike{
+    top: 100%;
+    width:70%;
+    font-size: 15px;
+}
+.dislike{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    width: 50%;
+    /* position: absolute; */
+ }
+
+.dislikeIcon{
+    color:black;
+    height: 30%;
+    width: 30%;
+}
+.dislikeIconPressed{
+    color:#a94753;
+    height: 30%;
+    width: 30%;
+}
+.spanDislike
+{
+    width: 70%;
+    font-size: 15px;
+}
+
+.pressLike{
+    display:flex;
+     /* width: 680px; */
+     flex-direction: row;
+    width:50%;
+ /* position: absolute; */
+}
+.lists{
+     display:flex;
+    vertical-align: top;
+    width:100%;
+    margin-top: 1%;
+    position:absolute;
+    flex-direction:row-reverse;
+    padding-right: 10%;    
+    gap: 70%; 
+
+    display: flex;
+    flex-direction: row-reverse;
+    width:80%;
+    gap:50%;
+    align-items:center; 
+    margin-top: 2%;
+    position: absolute;
+}
+
+
+.likeItems{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.dislikeItems{
+    display: flex;
+    width: 100%;
+    flex-direction: column;  
+}
+.rightDiv{
+    display:flex; 
+     width: 50%;
+    align-items: center; 
+     width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2.5%;
+    position: absolute;
+    ;
+}
+.leftDiv{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 2.5%;
+    position: absolute;
+}
+.dropList{
+width: 100%;
+/* position:absolute;  */
+ /* z-index: 3; */
+}
+.editing{
+    display:flex;
+    flex-direction:column;
+}     
+

@@ -1,0 +1,98 @@
+.userPosts{
+    width: 50%;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 0;  
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    align-self: flex-end;
+    gap: 5px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: black;
+    box-shadow: inset 0 0 0 0 #ad5072;
+    transition: ease-out 0.3s;
+    
+}
+.savedPosts{
+    width: 50%;
+    height: 100%;
+    background-color: #818181;
+    padding-bottom: 20px;
+    padding-top: 0;  
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    gap: 5px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;   
+     background-color: black;
+     box-shadow: inset 0 0 0 0 #ad5072;
+     transition: ease-out 0.3s;
+
+
+}
+.postsTxt{
+text-decoration: none;
+color: white;
+font-family: 'Secular One', sans-serif;
+font-size: 16px;
+align-self: center;
+margin-top: 15px;
+}
+.icon{
+    align-self: center;
+    margin-top: 15px;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+.savedPosts:hover{
+    box-shadow: inset 700px 0 0 0 #ad5072;
+}
+.savedPosts:active{
+    box-shadow: inset 90px 0 0 0 #ad5072;
+
+}
+
+.userPosts:hover{
+    box-shadow: inset 700px 0 0 0 #ad5072;
+
+}
+.userPosts:active{
+    box-shadow: inset 700px 0 0 0 #ad5072;
+
+}
+
+.savedPostsActive{
+    width: 50%;
+    height: 100%;
+    background-color: #818181;
+    padding-bottom: 20px;
+    padding-top: 0;  
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    gap: 5px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;   
+     background-color: #ad5072;
+
+    }
+
+    .userPostsActive{
+        width: 50%;
+        height: 100%;
+        padding-bottom: 20px;
+        padding-top: 0;  
+        display: flex;
+        justify-content: center;
+        align-items:center; 
+        align-self: flex-end;
+        gap: 5px;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: #ad5072;
+        transition: ease-out 0.3s;
+    }

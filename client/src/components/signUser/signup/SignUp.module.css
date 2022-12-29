@@ -1,0 +1,96 @@
+.container{
+    display:inline-block;
+    vertical-align: top;
+    width:26%;
+    align-items: center;
+    margin-top: 4%;
+    background: white;
+    border: 0.5px solid lightgray;
+}
+.box{
+    display: inline-block;
+    /* width: 100px; */
+    justify-content: center;
+    width: 100%;
+
+}
+
+.main{
+    
+    display: flex;
+    box-sizing:100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 1%;
+    font-size: 25px;
+    border-bottom: 100%;
+    border-top: none;
+    border-right:none;
+    border-left: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.icon{
+    height: 8%;
+    width: 8%;
+}
+.title{
+    font-size: 100%;
+    letter-spacing: 1px;
+    font-family: 'Varela Round', sans-serif;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    box-sizing: 100%;
+}
+
+.input{
+    direction: rtl;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+     border-bottom: 2px dashed gray;
+     padding-top: 10%;
+     width: 70%;
+     text-align: center;
+     background:white;
+     font-family: 'Varela Round', sans-serif;
+     color: black;
+}
+
+.input:focus{
+    direction: rtl;
+   outline: none;
+     border-bottom: 1px dashed #a94753;
+     color:black ;
+     font-family: 'Varela Round', sans-serif;
+
+}
+.span{
+    height: 8%;
+    width: 8%;
+}
+.passDiv{
+    display: inline-block;
+    justify-content: space-between; 
+    width: 100%;   
+}
+.eyeIcon{
+    color: black;
+    transition:ease-out 0.3s;
+    height: 5%;
+    width: 5%;
+}
+.eyeIcon:hover{
+ color:gray;
+}
+.button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+

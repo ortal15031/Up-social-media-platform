@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+}
+.list{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    background: white;
+    flex-direction: row-reverse;
+    gap:3%;
+    padding-right: 10%;
+    padding-left: 10%;
+
+ 
+}
+
+.item{
+    width: 5%;
+}
+
+
+
+

@@ -1,0 +1,10 @@
+.input{
+
+    border: 1px solid black;
+    width: 200px;
+
+}
+
+.input::-webkit-file-upload-button{
+margin-right: 12px;
+}

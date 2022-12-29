@@ -1,0 +1,16 @@
+.input{
+   
+    border:30px;
+    border-radius:30px;
+    font-size: 13px;
+    background-color: #f5f5f5;
+    width: 85%;
+    outline:none;
+    padding:8px;
+    direction: rtl;
+    text-align: right;
+}
+
+.input:focus{
+outline: none;
+}

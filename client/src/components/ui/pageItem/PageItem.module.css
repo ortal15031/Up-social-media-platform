@@ -1,0 +1,21 @@
+.pageBtn{
+    display: inline-block;
+background-color: white;
+border: 3px solid black;
+height: 40px;
+width: 30px;
+font-size: 13px;
+transition: ease-in 0.3s;
+text-align: center;
+margin:2px;
+}
+
+.pageBtn:hover{
+background: black;
+color: white;
+}
+
+.pageBtn:active{
+    background: black;
+    color: white;
+}
